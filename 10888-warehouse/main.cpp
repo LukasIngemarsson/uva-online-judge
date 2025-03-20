@@ -6,6 +6,7 @@
 
 using namespace std;
 
+// hungarian algorithm from KACTL
 #define rep(i, a, b) for(int i = a; i < (b); ++i)
 #define all(x) begin(x), end(x)
 #define sz(x) (int)(x).size()
@@ -48,11 +49,11 @@ pair<int, vi> hungarian(const vector<vi> &a) {
 
 pair<int, int> coord_off[] = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 
-signed main() {
+int main() {
     std::cin.tie(0)->sync_with_stdio(false);
+
     int t;
     cin >> t;
-
     for (int ti = 0; ti < t; ti++) {
         int h, w;
         cin >> h >> w;
@@ -113,5 +114,6 @@ signed main() {
         vector<int> opt = res.second;
         cout << min_cost << '\n';
     }
+
     return 0;
 }
