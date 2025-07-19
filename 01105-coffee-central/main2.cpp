@@ -35,7 +35,7 @@ int bfs(int str, int stc, int dx, int dy, int m, set<pii> &shops) {
 }
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
 
     int case_num = 1;
     while (true) {

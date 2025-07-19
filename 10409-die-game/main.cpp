@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
 
     map<char, char> side_to_opposing;
     pair<char ,char> opposites[3] = {{'n', 's'}, {'w', 'e'}, {'t', 'b'}};

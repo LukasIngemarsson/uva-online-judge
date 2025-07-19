@@ -24,7 +24,7 @@ bool custom_comp(pair<char, int> a, pair<char, int> b) {
 }
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
 
     int t = 1;
     while (true) {

@@ -164,7 +164,7 @@ public:
 };
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
 
     int nr_of_test_cases;
     cin >> nr_of_test_cases;

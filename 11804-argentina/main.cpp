@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
 
     auto custom_sort = [](const tuple<int, int, string> &a, const tuple<int, int, string> &b) {
         if (get<0>(a) != get<0>(b)) return get<0>(a) > get<0>(b);

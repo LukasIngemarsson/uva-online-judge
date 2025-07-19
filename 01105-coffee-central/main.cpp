@@ -32,7 +32,7 @@ void bfs_from_shop(int start_r, int start_c, int dx, int dy, int m, map<pii, int
 }
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
 
     int case_num = 1;
     while (true) {

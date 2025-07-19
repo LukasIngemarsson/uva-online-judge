@@ -50,7 +50,7 @@ pair<int, vi> hungarian(const vector<vi> &a) {
 pair<int, int> coord_off[] = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
 
     int t;
     cin >> t;

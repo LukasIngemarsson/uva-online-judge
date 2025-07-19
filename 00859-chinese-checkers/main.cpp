@@ -49,7 +49,7 @@ struct Solver {
 };
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
 
     int L, C;
     bool first_iter = true;

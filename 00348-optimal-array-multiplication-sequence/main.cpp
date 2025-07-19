@@ -60,7 +60,7 @@ public:
 };
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
 
     int case_count = 1;
 

@@ -22,7 +22,7 @@ pair<bool, double> get_cals(int i, string s) {
 }
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
     string content[NUM_CONTENTS]; // f, p, s, st, a
     bool prev_was_end = false;
     double ttotal = 0, fat_cals = 0;

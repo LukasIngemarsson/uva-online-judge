@@ -1,3 +1,5 @@
+// too slow
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -79,7 +81,7 @@ public:
 };
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
     int N;
 
     while (cin >> N) {

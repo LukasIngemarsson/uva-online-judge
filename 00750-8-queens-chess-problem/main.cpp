@@ -9,7 +9,7 @@
 using namespace std;
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
 
     const int N = 8;
     int num_cases;

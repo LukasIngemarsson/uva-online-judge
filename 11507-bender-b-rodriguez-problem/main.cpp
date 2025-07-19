@@ -9,7 +9,7 @@ vector<int> cross_product(vector<int> A, vector<int> B) {
 }
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
     int L;
     string dir;
 

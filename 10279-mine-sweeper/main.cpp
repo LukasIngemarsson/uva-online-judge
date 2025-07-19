@@ -18,7 +18,7 @@ char get_adj_mine_count(vector<string> &mine_grid, int n, int r, int c) {
 }
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
     int t;
     cin >> t;
     for (int ti = 0; ti < t; ++ti) {

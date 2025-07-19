@@ -51,7 +51,7 @@ void recon_dfs(vector<vector<int>>& bitmap, pair<int, int> rbound, pair<int, int
 }
 
 int main() {
-    std::cin.tie(0)->sync_with_stdio(false);
+    cin.tie(0)->sync_with_stdio(false);
 
     char format;
     int rows, cols;
