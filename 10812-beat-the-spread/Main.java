@@ -18,13 +18,13 @@ class Main {
         for (int i = 0; i < n; ++i) {
             int s = io.getInt(), d = io.getInt();
             if (d > s || (s + d) % 2 != 0) {
-                System.out.println("impossible");
+                io.println("impossible");
                 continue;
             }
 
             int x = (d + s) / 2;
             int y  = s - x;
-            System.out.println(x + " " + y);
+            io.println(x + " " + y);
         }
 
         io.close();
