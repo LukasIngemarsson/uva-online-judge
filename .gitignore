@@ -5,3 +5,5 @@
 **/.vscode/
 0-UNF/
 **/slow.*
+*.in
+*.txt
